@@ -1,0 +1,25 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "aws-admin",
+    "region"      : "ap-south-1",
+    "configuration" : "Release",
+    "function-runtime" : "dotnet6",
+    "function-memory-size" : 256,
+    "function-timeout"     : 30,
+    "function-handler"     : "StudentLambda::StudentLambda.Function::CreateStudentAsync",
+    "framework"            : "net6.0",
+    "function-name"        : "create-student",
+    "function-description" : "Creates a student Record.",
+    "package-type"         : "Zip",
+    "function-role"        : "arn:aws:iam::821175633958:role/lambda_exec_get-all-students",
+    "function-architecture" : "x86_64",
+    "tracing-mode"          : "PassThrough",
+    "environment-variables" : "",
+    "image-tag"             : ""
+}

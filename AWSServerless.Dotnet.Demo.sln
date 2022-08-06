@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloLambda", "HelloLambda\HelloLambda.csproj", "{0DA03988-4289-4E1B-A611-44838FFB1368}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentLambda", "StudentLambda\StudentLambda.csproj", "{DB835548-2F6F-41AE-8DE0-68B9B6CD5C73}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DA03988-4289-4E1B-A611-44838FFB1368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA03988-4289-4E1B-A611-44838FFB1368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA03988-4289-4E1B-A611-44838FFB1368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA03988-4289-4E1B-A611-44838FFB1368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB835548-2F6F-41AE-8DE0-68B9B6CD5C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB835548-2F6F-41AE-8DE0-68B9B6CD5C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB835548-2F6F-41AE-8DE0-68B9B6CD5C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB835548-2F6F-41AE-8DE0-68B9B6CD5C73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
